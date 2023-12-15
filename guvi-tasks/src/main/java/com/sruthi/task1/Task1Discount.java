@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task1;
 
 import java.util.Scanner;
 

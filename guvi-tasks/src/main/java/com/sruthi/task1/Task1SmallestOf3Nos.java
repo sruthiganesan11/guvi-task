@@ -1,8 +1,8 @@
-package com.mycompany.guviTask;
+package com.sruthi.task1;
 
 import java.util.Scanner;
 
-public class Task1GreatestOf3Nos {
+public class Task1SmallestOf3Nos {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

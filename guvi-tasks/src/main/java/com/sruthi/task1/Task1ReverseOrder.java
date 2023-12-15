@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task1;
 
 import java.util.Scanner;
 
@@ -19,9 +19,7 @@ public class Task1ReverseOrder {
             result += modResult;
         }
 
-        char[] chNumber = result.toCharArray();
-        for (int i = 0; i <= chNumber.length - 1 ; i++) {
-            System.out.print(chNumber[i]);
-        }
+        System.out.print(result);
+
     }
 }

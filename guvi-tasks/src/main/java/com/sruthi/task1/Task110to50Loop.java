@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task1;
 
 public class Task110to50Loop {
     public static void main(String[] args) {
