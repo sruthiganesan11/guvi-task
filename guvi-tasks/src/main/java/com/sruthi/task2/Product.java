@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task2;
 
 public class Product {
     private int pid;
@@ -15,24 +15,13 @@ public class Product {
         return pid;
     }
 
-    public void setPid(int pid) {
-        this.pid = pid;
-    }
 
     public float getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
     public int getQuantity() {
         return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
     }
 
     @Override

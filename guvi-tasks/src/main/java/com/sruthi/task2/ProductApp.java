@@ -1,20 +1,25 @@
-package com.mycompany.guviTask;
+package com.sruthi.task2;
 
 import java.util.Scanner;
 
-public class XYZ {
+public class ProductApp {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        final int NUMBER_OF_PRODUCTS = 5;
 
-        Product[] products = new Product[5];
+        Product[] products = new Product[NUMBER_OF_PRODUCTS];
 
-        for (int i = 0; i < 5; i++) {
+
+        for (int i = 0; i < products.length; i++) {
             System.out.println("Enter details of the product " + (i + 1));
+
             System.out.println("enter the pid:");
             int pid = scanner.nextInt();
+
             System.out.println("enter the price:");
             float price = scanner.nextFloat();
+
             System.out.println("enter the quantity:");
             int quantity = scanner.nextInt();
 

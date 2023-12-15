@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task2;
 
 public class Employees {
     public static void main(String[] args) {

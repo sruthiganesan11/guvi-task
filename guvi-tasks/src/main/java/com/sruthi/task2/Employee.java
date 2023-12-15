@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task2;
 
 public class Employee extends Person {
 
@@ -21,9 +21,9 @@ public class Employee extends Person {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "id=" + id +
-                ", salary=" + salary +
-                '}' + super.getName() + super.getAge();
+        return "Name = " + super.getName() +
+                ", Age = " +  super.getAge()+
+                ", Id = " + id +
+                ", Salary = " + salary ;
     }
 }

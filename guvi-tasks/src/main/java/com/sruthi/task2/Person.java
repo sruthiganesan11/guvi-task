@@ -1,4 +1,4 @@
-package com.mycompany.guviTask;
+package com.sruthi.task2;
 
 public class Person {
     private String name;
@@ -20,7 +20,7 @@ public class Person {
     }
     public void display() {
         System.out.println("Name: " + name);
-        System.out.println("Age: " + AGE_DEFAULT);
+        System.out.println("Age: " + age);
     }
     @Override
     public String toString() {
