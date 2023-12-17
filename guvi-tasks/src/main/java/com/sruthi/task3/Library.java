@@ -66,7 +66,7 @@ public class Library {
             for (int i = 0; i < capacity; i++) {
                 Book book = books[i];
                 if(book != null) {
-                    System.out.println("\tBook id: " + book.getBookId() + "Title: " + book.getTitle()
+                    System.out.println("\tBook id: " + book.getBookId() + " Title: " + book.getTitle()
                             + "Author: " + book.getAuthor());
                 }
             }

@@ -3,7 +3,7 @@ package com.sruthi.task4;
 import java.util.Scanner;
 
 public class Voters{
-    public static void main(String[] args) throws InvalidAgeException {
+    public static void main(String[] args) throws InvalidAgeException{
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your Voter id:");
