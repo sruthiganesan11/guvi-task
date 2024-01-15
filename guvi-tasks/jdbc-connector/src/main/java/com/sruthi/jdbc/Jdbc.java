@@ -12,6 +12,8 @@ public class Jdbc {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/w3schools", "root", "root123");
             Statement statement = connection.createStatement();
 
+//            INSERTING DATA'S TO TABLE
+
             String insertQuery = "INSERT INTO Emp (empcode, empname, empage, empsalary) VALUES " +
                     "('101', 'Jenny', 25, 10000), " +
                     "('102', 'Jacky', 30, 20000), " +
