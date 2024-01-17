@@ -5,14 +5,21 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Jdbc {
-    public static void main(String[] args) throws SQLException {
+//Data Access Object - enables to access employee data from the employee table
+public class EmployeeDao {
+    public static void main(String[] args) {
 
+        doInsert();
+    }
+
+    // Insert's into employee table
+
+    private static void doInsert() {
         try {
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3307/w3schools", "root", "root123");
             Statement statement = connection.createStatement();
 
-//            INSERTING DATA'S TO TABLE
+
 
             String insertQuery = "INSERT INTO Emp (empcode, empname, empage, empsalary) VALUES " +
                     "('101', 'Jenny', 25, 10000), " +

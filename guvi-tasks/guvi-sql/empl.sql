@@ -51,8 +51,10 @@ SELECT ename FROM Empl WHERE ename LIKE'__a%';
 -- EMPLOYEES WHOSE LAST LETTER IS T
 SELECT ename FROM Empl WHERE ename LIKE'%t';
 
+drop table Empl;
 
-
+create index idx on Empl(job);
+-- CREATING TABLE EMPLOYEE FOR JDBC CONNECTOR
 create table `Emp`(
 `empcode` int NOT NULL auto_increment,
 `empname` varchar(255) NOT NULL,
@@ -60,10 +62,11 @@ create table `Emp`(
 `empsalary` int NOT NULL,
 PRIMARY KEY (`empcode`),
 UNIQUE KEY `Emp` (`empcode`)
-
 )ENGINE=InnoDB DEFAULT CHARSET=utf8MB4;
 
 SELECT * FROM Emp;
+
+drop table Emp;
 
 
 
