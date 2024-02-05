@@ -3,8 +3,8 @@
 }
 
 body {
-    background:linear-gradient(to top right,
-    #020024,#7d7daf,#6f6f9f);
+    background: linear-gradient(to top right,
+            #020024, #7d7daf, #6f6f9f);
     min-height: 100vh;
     line-height: 20px;
     display: flex;
@@ -17,12 +17,12 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
 .table-responsive table {
-    width:600px;
+    width: 600px;
     margin: 25px 0;
     border-collapse: collapse;
     overflow: hidden;
@@ -30,37 +30,38 @@ body {
     box-shadow: 0px 3px 15px rgba(222, 211, 211, 0.916);
     background: transparent;
 
-    
+
 }
 
-.table-responsive th,td {
+.table-responsive th,
+td {
     padding: 15px;
     color: white;
     border-bottom: 2px solid black;
-    background-color:rgba(255,255,255,0.2);
-    
+    background-color: rgba(255, 255, 255, 0.2);
+
 }
 
 .table-responsive th {
-    text-align :center;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
     background-color: deeppink;
 
 }
 
-.table-responsive td{
-    text-align :left;
+.table-responsive td {
+    text-align: left;
 }
 
 
-.table-responsive tbody tr:last-of-type{
-    border-bottom: 3px solid ;
+.table-responsive tbody tr:last-of-type {
+    border-bottom: 3px solid;
 }
 
 .table-responsive title {
     align-items: left;
-    justify-content: left ;
+    justify-content: left;
 }
 
 
@@ -76,14 +77,15 @@ body {
 }
 
 link {
-    margin : 20px 30px;
+    margin: 20px 30px;
 }
+
 .link {
     display: inline-block;
     margin: 0 10px;
     width: 45px;
     height: 45px;
-    border-radius:50%;
+    border-radius: 50%;
     text-align: center;
     font-size: 22px;
     font-weight: 500;
@@ -93,9 +95,9 @@ link {
 }
 
 button:hover,
-.link:hover{
+.link:hover {
     color: #fff;
-    background-image: linear-gradient(#ff4568,#ff4568);
+    background-image: linear-gradient(#ff4568, #ff4568);
     background-repeat: no-repeat;
 }
 
@@ -112,7 +114,7 @@ button:hover,
     color: black;
     background: transparent;
     outline: none;
-    border-radius:5%;
+    border-radius: 5%;
     cursor: pointer;
 }
 
@@ -125,4 +127,3 @@ button:hover,
     color: #fff;
     background: #7d7daf;
 }
-
