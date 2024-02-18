@@ -1,10 +1,10 @@
-package com.example.demo3;
+package com.guvitasks.books;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo3ApplicationTests {
+class BookApplicationTest {
 
 	@Test
 	void contextLoads() {
