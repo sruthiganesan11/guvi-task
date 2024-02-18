@@ -506,6 +506,7 @@ const tableData = [
 const tableBody = document.querySelector("#table tbody");
 tableData.forEach(person => {
   const row = document.createElement('tr');
+  
   const idCell = document.createElement('td');
   idCell.textContent = person.id;
   row.appendChild(idCell);
