@@ -1,0 +1,83 @@
+.booknowbg {
+  background-image: url(../assets/docpic6.avif);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.booknowWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.booknow-contents {
+  width: 100%;
+  height: 350px;
+  background: transparent;
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+  padding: 50px 40px;
+  margin-bottom: 2rem;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 3);
+}
+
+.booknow-content h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.booknow-content h6 {
+  font-size: 1.2rem;
+}
+
+.booknow-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.booknowHeading {
+  background: transparent;
+  margin-top: 6rem;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.booknow-name h4 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.btn-bookNow {
+  width: 200px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(248, 246, 246, 0.979);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#btn-book {
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: #157dec;
+}

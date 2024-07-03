@@ -1,0 +1,152 @@
+.patientdasboardbg {
+  background-image: url(../assets/patientdash2.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.patientdasboardHeading {
+  margin-left: 8rem;
+  margin-top: 5%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-item {
+  background: #f4f5f6;
+  text-align: center;
+  margin: 20px 0;
+  padding: 50px 20px 40px 20px;
+  border-radius: 8px 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover {
+  background: #867bbf;
+  color: white;
+}
+
+.team-item h3 {
+  margin: 20px 0 1px 0 !important;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+
+.section-subtitle {
+  white-space: pre-line;
+}
+
+.team-item:hover h3 {
+  color: #ddd;
+}
+
+.team-info {
+  display: block;
+  margin-bottom: 0;
+}
+
+.team-info p {
+  color: #acacac;
+  font-style: italic;
+}
+
+.team-info::after {
+  background: #008aff;
+  background: -webkit-linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  background: -o-linear-gradient(bottom right, #6b02ff, #985bef);
+  background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
+  background: linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  width: 50px;
+  height: 3px;
+}
+
+.teams-img {
+  padding: 6px 6px;
+  background-color: #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+#find-doc {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+#doc-appointment {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+#doc-prescription {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.btn-patientDashboard {
+  width: 200px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(248, 246, 246, 0.979);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#btn-viewApp {
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: #2b9599;
+}
+
+#btn-viewPrescription {
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: #2b9599;
+}
+
+#btn-findDoctor {
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: #2b9599;
+}
+
+@media screen and (max-width: 780px) {
+  .patientdasboardHeading {
+    margin-top: 10%;
+    margin-right: 5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-patientDashboard {
+    width: 180px;
+  }
+
+}

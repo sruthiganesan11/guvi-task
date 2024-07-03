@@ -1,0 +1,54 @@
+.containerView {
+  width: 550px;
+  height: 330px;
+}
+
+.heading {
+  max-width: 250px;
+  font-size: 25px;
+  border: solid 2px #fff;
+  color:  #262626;
+  background-color: #fff;
+  padding: 5px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  
+}
+
+.main-content {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  padding: 50px 40px;
+  background-color: #262626;
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 3);
+}
+
+.main-content .employee-details {
+  font-size: 25px;
+  line-height: 1.5;
+  color:white;
+  justify-content: center;
+}
+
+#btnHome {
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 5px 5px;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,70 @@
+.updatepatientbg {
+  background-image: url(../assets/patientbg3.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.updatePatientwrapper {
+  margin-left: 35%;
+  width: 520px;
+  background-color: transparent;
+  color: black;
+  border-radius: 15px;
+  padding: 30px 40px;
+  backdrop-filter: blur(5px);
+}
+
+.updatePatientHeading h2 {
+  margin-top: 15%;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.updatePatientwrapper .input-updatepatient {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  margin: 15px 0;
+}
+
+.input-updatepatient input {
+  width: 100%;
+  height: 100%;
+  display: block !important;
+  background: transparent;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 40px;
+  color: black;
+  font-size: 20px;
+  padding: 15px 20px 15px 15px;
+}
+
+.updatePatientlabel {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.input-updatepatient input::placeholder {
+  color: black;
+}
+
+.updatePatientwrapper button {
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+  background: #333;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(255, 253, 253);
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}

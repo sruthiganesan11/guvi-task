@@ -1,0 +1,60 @@
+.viewTicketbg {
+  background-image: url(../assets/eticket4.avif);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+  opacity: 5;
+}
+
+.viewTicketwrappers {
+  margin-left: 35%;
+  width: 520px;
+  background-color: transparent;
+  color:white;
+  font-weight: 800;
+  border-radius: 15px;
+  padding: 30px 40px;
+  opacity: 5;
+  backdrop-filter: blur(7px);
+}
+
+.viewTicketHeading {
+  margin-top: 15%;
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 5;
+  background: transparent;
+}
+
+.viewTicketItem {
+  list-style: none;
+  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 2;
+  font-weight: 700;
+  margin-bottom: 10px; /* Adjust spacing between boxes */
+  background-color: transparent; /* Background color of each box */
+  padding: 10px;
+  opacity: 55;
+  border-radius: 5px;
+  border: 3px solid #040303; /* Border color and thickness */
+}
+
+.btn-view {
+  width: 100%;
+  margin-top: 40px;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}

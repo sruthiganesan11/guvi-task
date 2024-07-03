@@ -1,0 +1,54 @@
+.docDashBoardbg {
+  background-image: url(../assets/doc-pics004.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.docDashBoardwrapper h2{
+    width: 65%;
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    background: transparent;
+    backdrop-filter: blur(9px);
+
+  }
+
+.btn-docPatientList {
+  width: 100%;
+  margin-top: 20px;
+  height: 45px;
+  background: #333;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(255, 253, 253);
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+#add-prescription {
+  width: 30%;
+  margin-left: 10rem;
+  margin-right: 20px;
+  background-color: #157dec;
+}
+
+#cancel-appointment {
+  width: 35%;
+  margin-left: 10rem;
+  margin-right: 20px;
+  background-color: #c11b17;
+}
